@@ -2,7 +2,7 @@
 include 'db.php';
 
 class UserModel {
-    private $conn;
+    private 
 
     public function __construct($conn) {
         $this->conn = $conn;
